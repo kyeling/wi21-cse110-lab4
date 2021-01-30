@@ -46,9 +46,9 @@
 20. see js file
 
 21. The output is 
-    ```1  
+    ``` 1  
     3
     4   
-    2```
+    2 ```
 
 
