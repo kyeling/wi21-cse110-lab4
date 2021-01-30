@@ -1,6 +1,7 @@
 ## Part 1
 
-![breakpoints](part3-breakpoints.png)
+![breakpoints](part3-breakpoints.png)  
+
 ![watch-expressions](part3-watch-expressions.png)
 
 The bug was that the inputs for first number and second number were being interpreted as strings and the result printed for sum was a concatenation of the two strings instead of the addition of their numerical values.  
