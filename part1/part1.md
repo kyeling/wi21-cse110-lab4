@@ -1,17 +1,17 @@
-1. The value of i will be printed because i is a var variable, which means it's function-scoped even if declared inside a for loop block.
-2. The value of discountedPrice will be printed because it's a var variable, which means it's function-scoped even if declared inside a for loop block.
-3. The value of finalPrice will be printed becuase it's a var variable and function-scoped.
-4. The function will return `[50,100,150]` because for each value in an array, the function multiplies the value by the percentage of its value after applying a discount.
+1. The value of i (prices.length) will be printed because i is a var variable, which means it's function-scoped even if declared inside a for loop block.
+2. The value of discountedPrice (from the last iteration of the for loop) will be printed because it's a var variable, which means it's function-scoped even if declared inside a for loop block.
+3. The value of finalPrice (from the last iteration of the for loop) will be printed becuase it is both a var variable and function-scoped.
+4. The function will return [50,100,150] because all of the varaiables needed to calculated the discountedPrices are function-scoped.
 
 5. There will be a ReferenceError because i is a let variable, meaning it's not visible through blocks (in this case, the for loop).
 6. There will be a ReferenceError because discountedPrice is a let variable, meaning it's not visible through blocks (in this case, the for loop).
-7. There value of finalPrice will be printed because even though it's a let variable, it is declared inside the function scope.
-8. The function will return `[50,100,150]` because for each value in an array, the function multiplies the value by the percentage of its value after applying a discount.
+7. The value of finalPrice will be printed because even though it's a let variable, it is declared within the function scope instead of the block scope.
+8. The function will still return [50,100,150] because even though i and discountedPrice cannot be accessed outside of the for loop, they are only needed within the for loop, so the function still operates as intended.
 
 9. There will be a ReferenceError because i is a let variable, meaning it's not visible through blocks (in this case, the for loop).
 10. There will be a ReferenceError because discountedPrice is a const variable, which has the same scope as let variables and is therefore not visible through the for loop block.
 11. There will be an error because finalPrice was declared as a const variable but the code inside the for loop is trying to change the primitive value it references.
-12. The function will throw an error before returning a value because of the for loop attempting to change const finalPrice.
+12. The function will throw an error because of the for loop attempting to change const finalPrice.
 
 13-a. `student.name`  
 13-b. `student["Grad Year"]`  
@@ -41,7 +41,7 @@
 
 18. see js file
 
-19. The result will be `[6,8,10]` because modifyArray will call doSomething which will call a function that returns x\*2. So for input `[1,2,3]`, modifyArray calls doSomething on each element of the array, and doSomething calls x\*2 on 2 + the value of the element.
+19. The result will be [6,8,10] because modifyArray will call doSomething which will call a function that returns x\*2. So for input [1,2,3], modifyArray calls doSomething on each element of the array, and doSomething calls x\*2 on 2 + the value of the element.
 
 20. see js file
 
