@@ -1,4 +1,4 @@
-## Part 1
+## Part 1: Debugging
 
 ![breakpoints](part3-breakpoints.png)  
 
@@ -11,7 +11,7 @@ To fix this bug, I used applied the type conversion `Number()` on each of the in
 ![bug-fix](part3-bug-fix.png)
 
 
-## Part 2
+## Part 2: Network Tab
 1. citylots.json
 2. part2.js
 3. 11.7 MB
