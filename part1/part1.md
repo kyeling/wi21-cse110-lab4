@@ -1,7 +1,7 @@
 1. The value of i (prices.length) will be printed because i is a var variable, which means it's function-scoped even if declared inside a for loop block.
 2. The value of discountedPrice (from the last iteration of the for loop) will be printed because it's a var variable, which means it's function-scoped even if declared inside a for loop block.
 3. The value of finalPrice (from the last iteration of the for loop) will be printed becuase it is both a var variable and function-scoped.
-4. The function will return [50,100,150] because all of the varaiables needed to calculated the discountedPrices are function-scoped.
+4. The function will return [50,100,150] because all of the varaiables needed to calculate the discountedPrices are function-scoped.
 
 5. There will be a ReferenceError because i is a let variable, meaning it's not visible through blocks (in this case, the for loop).
 6. There will be a ReferenceError because discountedPrice is a let variable, meaning it's not visible through blocks (in this case, the for loop).
@@ -19,12 +19,12 @@
 13-d. `student["Favorite Teacher"]["name"]`  
 13-e. `student["courseLoad"][0]`  
 
-14-a. The output is '32' because the 2 gets converted to a string and addition of strings gives "32".  
+14-a. The output is '32' because the 2 gets converted to a string and addition/concatenation of strings gives "32".  
 14-b. The output is 1 because the '3' gets converted to a number and 3-2=1.   
 14-c. The output is 3 because the null is interpreted as the number 0 and 3+0=3.   
 14-d. The output is '3null' because null is intepreted as a string and the result is concatenation of '3' and 'null'.  
 14-e. The output is 4 because true is represented with a value of 1.  
-14-f. The output is 0 because false is represented with a value of 0 and adding null doesn't add anything.  
+14-f. The output is 0 because false and null are both represented with a value of 0 in this case.  
 14-g. The output is '3undefined' because undefined is treated as a string and concatenated to '3'.  
 14-h. The output is NaN because unlike the previous example where something was added to a string, something undefined can't be subtracted from a string.  
 
@@ -35,7 +35,7 @@
 15-e. The output is false because true is represented by 1 and 1 != 2.  
 15-f. The output is true because Boolean(2) becomes true since 2 is not considered an "empty value".  
 
-16. The == operator checks if the two operands are equal after different types have been converted to numbers, while the === operator checks if two operands are equal and of the same type.
+16. The == operator checks if the two operands are equal after conversion to the same type, while the === operator checks if two operands are equal _and_ of the same type.
 
 17. 'How are you?' is printed because 2 == true evaluates to false (since true is 1), and then 2 gets evaluated as a Boolean (and Boolean(2) is true).
 
