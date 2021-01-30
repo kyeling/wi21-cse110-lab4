@@ -19,21 +19,21 @@
 13-d. `student["Favorite Teacher"]["name"]`  
 13-e. `student["courseLoad"][0]`  
 
-14-a. The output is 32 because the '2' gets converted to a string and addition of strings gives "32".
-14-b. The output is NaN because you can't subtract something from a string.
-14-c. The output is 3 because adding null to 3 gives 3 back.
-14-d. The output is '3' because adding null to a string gives the string itself back.
-14-e. The output is 4 because true is represented with a value of 1.
-14-f. The output is 0 because false is represented with a value of 0 and adding null doesn't add anything.
-14-g. The output is undefined because any operation with something undefined cannot be defined.
-14-h. The output is undefined because any operation with something undefined cannot be defined.
+14-a. The output is 32 because the '2' gets converted to a string and addition of strings gives "32".  
+14-b. The output is NaN because you can't subtract something from a string.  
+14-c. The output is 3 because adding null to 3 gives 3 back.  
+14-d. The output is '3' because adding null to a string gives the string itself back.  
+14-e. The output is 4 because true is represented with a value of 1.  
+14-f. The output is 0 because false is represented with a value of 0 and adding null doesn't add anything.  
+14-g. The output is undefined because any operation with something undefined cannot be defined.  
+14-h. The output is undefined because any operation with something undefined cannot be defined.  
 
-15-a. The output is true because the '2' gets converted to a number and 2 > 1.
-15-b. The output is false because '2' is greater than '12' in lexicographical order.
-15-c. The output is true because '2' gets converted to a number, which is equal to 2.
-15-d. The output is false because the types of 2 and '2' are different.
-15-e. The output is false because true is represented by 1 and 1 != 2.
-15-f. The output is true because Boolean(2) becomes true since 2 is not considered an "empty value".
+15-a. The output is true because the '2' gets converted to a number and 2 > 1.  
+15-b. The output is false because '2' is greater than '12' in lexicographical order.  
+15-c. The output is true because '2' gets converted to a number, which is equal to 2.  
+15-d. The output is false because the types of 2 and '2' are different.  
+15-e. The output is false because true is represented by 1 and 1 != 2.  
+15-f. The output is true because Boolean(2) becomes true since 2 is not considered an "empty value".  
 
 16. The == operator checks if the two operands are equal after different types have been converted to numbers, while the === operator checks if two operands are equal and of the same type.
 
