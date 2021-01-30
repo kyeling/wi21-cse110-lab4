@@ -19,14 +19,14 @@
 13-d. `student["Favorite Teacher"]["name"]`  
 13-e. `student["courseLoad"][0]`  
 
-14-a. The output is 32 because the '2' gets converted to a string and addition of strings gives "32".  
-14-b. The output is NaN because you can't subtract something from a string.  
-14-c. The output is 3 because adding null to 3 gives 3 back.  
-14-d. The output is '3' because adding null to a string gives the string itself back.  
+14-a. The output is '32' because the 2 gets converted to a string and addition of strings gives "32".  
+14-b. The output is 1 because the '3' gets converted to a number and 3-2=1.   
+14-c. The output is 3 because the null is interpreted as the number 0 and 3+0=3.   
+14-d. The output is '3null' because null is intepreted as a string and the result is concatenation of '3' and 'null'.  
 14-e. The output is 4 because true is represented with a value of 1.  
 14-f. The output is 0 because false is represented with a value of 0 and adding null doesn't add anything.  
-14-g. The output is undefined because any operation with something undefined cannot be defined.  
-14-h. The output is undefined because any operation with something undefined cannot be defined.  
+14-g. The output is '3undefined' because undefined is treated as a string and concatenated to '3'.  
+14-h. The output is NaN because unlike the previous example where something was added to a string, something undefined can't be subtracted from a string.  
 
 15-a. The output is true because the '2' gets converted to a number and 2 > 1.  
 15-b. The output is false because '2' is greater than '12' in lexicographical order.  
